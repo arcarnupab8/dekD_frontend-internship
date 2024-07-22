@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    width: 100%;
+    border-bottom: 0.5px solid #d9d9d9;
+}
+.head > div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.head div > p{
+    font-size: 32px;
+    font-weight: 650;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.sumlist{
+    font-size: 12px;
+    color: #878787;
+}
+
+.mode{
+    display: flex;
+    justify-content: flex-end;
+}
+.mode > div{
+    margin: 24px 10px;
+    padding: 8px 20px;
+    border: 1px solid #E5E5E5;
+    border-radius: 20px;
+}
+.mode > div:hover{
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.chosen:hover{
+    cursor: pointer;
+}
+.chosen img{
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+}
+
+.deleter{
+    display: flex;
+    align-items: center;
+}
+.deleter > img{
+    width: 19px;
+    height: 19px;
+}
+
+@media screen and (max-width: 600px) {
+    .modebar{
+        width: 100%;
+    }
+
+    .wrap{
+        justify-content: flex-start;
+        width: 100%;
+    }
+}

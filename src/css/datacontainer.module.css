@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+img{
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: 650;
+}
+.chapter{
+    color: #A8A8A8;
+}
+.chapter > img{
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+}
